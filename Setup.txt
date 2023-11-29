@@ -1,0 +1,16 @@
+To use Selenium we need a driver for our browser
+1) Download
+https://sites.google.com/chromium.org/driver/
+For Windows latest chrome to date https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/119.0.6045.105/win64/chromedriver-win64.zip
+2) Put the driver.exe in the same folder as the main file
+3) from selenium import webdriver
+   from selenium.webdriver.chrome.service import Service
+4) Setup the service object
+service = Service(executable_path="chromedriver.exe")
+5) Setup the driver object 
+driver = webdriver.Chrome(service=service)
+5.1)A quick test
+driver.get("https://google.com")
+import time
+time.sleep(10)
+driver.quit()

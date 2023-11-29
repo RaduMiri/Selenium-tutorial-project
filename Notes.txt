@@ -1,0 +1,4 @@
+Also brightdata trial for free webscarping large volume and avoid stoppers like captcha.
+Keep in mind, maybe try other solutions for this issue of scale or stoppers.
+
+!!! When using a class with a long name, like using bootstrap, put . instead of space
